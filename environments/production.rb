@@ -6,8 +6,8 @@ override_attributes(
     "image_upload" => true,
     "images" => ["precise","cirros"],
     "image" => {
-      "cirros" => "http://hypnotoad/cirros-0.3.0-x86_64-disk.img",
-      "precise" => "http://hypnotoad/precise-server-cloudimg-amd64.tar.gz"
+      "cirros" => "http://https://launchpad.net/cirros/trunk/0.3.0/+download/cirros-0.3.0-x86_64-disk.img",
+      "precise" => "https://cloud-images.ubuntu.com/server/releases/precise/alpha-2/precise-server-cloudimg-amd64.tar.gz"
     }
   },
   "mysql" => {
